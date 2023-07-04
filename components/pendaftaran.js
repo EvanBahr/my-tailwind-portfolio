@@ -2,23 +2,11 @@ import Image from "next/image";
 import React from "react";
 import org from "@/Assets/image/org.jpg";
 import CardPhoto from "./CardPhoto";
+import Penerimaan from "./Penerimaan";
 export default function Pendaftaran() {
   return (
     <div className="mx-[130px]">
-      <div className=" my-[20px] px-[20px] pt-[30px] pb-[20px] flex items-center justify-between bg-blue-950 text-teal-200 ">
-        <div>
-          <div className="text-2xl">
-            SIPENMARU, PENERIMAAN MAHASISWA BARU FAZUFI ACADEMY 2023
-          </div>
-          <div>
-            Informasi Pendaftaran, Pengumuman, Daftar Ulang Mahasiswa Baru.
-          </div>
-        </div>
-        <button className="h-[40px] bg-black w-[150px]  "> Klik Disini </button>
-      </div>
-      <div className="text-center  text-3xl font-semibold mt-10">
-        BERITA ACADEMY
-      </div>
+      <div className="text-center  text-3xl font-semibold">BERITA ACADEMY</div>
       <div className="grid grid-cols-2 pt-10 ">
         <Image
           src={org}
