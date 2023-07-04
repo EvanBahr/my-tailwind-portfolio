@@ -1,5 +1,5 @@
 import React from "react";
-import pendidikan from "@/Assets/image/pendidikan.jpg";
+import experience from "@/Assets/image/Experience.jpg";
 import Image from "next/image";
 export default function Pengalaman() {
   return (
@@ -20,7 +20,7 @@ export default function Pengalaman() {
             meraih kesuksesan di industri teknologi.
           </div>{" "}
           <Image
-            src={pendidikan}
+            src={experience}
             className="w-[800px] h-[550px] shadow-md "
             alt="foto sub pendidikan"
           />

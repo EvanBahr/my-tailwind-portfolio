@@ -3,6 +3,8 @@ import Hero from "@/components/Hero";
 import Pendidikan from "@/components/Pendidikan";
 import Penerimaan from "@/components/Penerimaan";
 import Pengalaman from "@/components/Pengalaman";
+import RealProject from "@/components/RealProject";
+import Jendela from "@/components/jendela";
 import NavComp from "@/components/nav-comp";
 import Pendaftaran from "@/components/pendaftaran";
 
@@ -27,6 +29,12 @@ export default function Home() {
       <br />
       <br />
       <Pengalaman />
+      <br />
+      <br />
+      <RealProject />
+      <br />
+      <br />
+      <Jendela />
     </div>
   );
 }
