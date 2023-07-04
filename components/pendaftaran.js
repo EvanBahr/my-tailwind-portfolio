@@ -68,6 +68,11 @@ export default function Pendaftaran() {
           judul={"Kurikulum dan Metode Pengajaran"}
         />
       </div>
+      <div className="flex mt-[50px]">
+        <div className="h-[40px] w-[250px] bg-blue-950 mx-auto text-white  flex items-center justify-center hover:bg-blue-900 cursor-pointer">
+          lihat berita selengkapnya {">>"}
+        </div>
+      </div>
     </div>
   );
 }
