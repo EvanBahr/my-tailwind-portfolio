@@ -6,7 +6,7 @@ import Pendaftaran from "@/components/pendaftaran";
 
 export default function Home() {
   return (
-    <div className="pb-96 bg-slate-200">
+    <div className="pb-96 bg-slate-50">
       <NavComp />
       <br />
       <Hero />
