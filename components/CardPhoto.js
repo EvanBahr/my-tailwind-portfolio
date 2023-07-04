@@ -3,19 +3,16 @@ import React from "react";
 
 export default function CardPhoto(props) {
   return (
-    <div className="w-full mx-2">
-      <Image
-        src={props.foto}
-        alt="gambar besar"
-        className="w-full h-[250px] object-cover  "
-      />
-      <div className="text-[15px] ">
-        bismillah Fazufi Academy adalah sebuah lembaga bootcamp fullstack yang
-        berdedikasi untuk memberikan pelatihan teknologi informasi tingkat
-        tinggi kepada calon pengembang perangkat lunak. Dengan program
-        pendidikan intensif selama 12 minggu, Fazufi Academy berkomitmen untuk
-        membekali peserta dengan pengetahuan dan keterampilan yang diperlukan
-        untuk menjadi fullstack developer yang berkualitas.
+    <div>
+      <Image src={props.foto} alt="gambar" />
+      <div className="p-2">
+        <div className="text-xl font-semibold">{props.judul}</div>
+        <div className="text-slate-500 mt-2">
+          {props.text}
+          <span className="font-bold text-black cursor-pointer hover:text-blue-600">
+            baca selengkapnya...
+          </span>
+        </div>
       </div>
     </div>
   );
