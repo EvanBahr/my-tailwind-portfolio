@@ -2,6 +2,7 @@ import Agenda from "@/components/Agenda";
 import Hero from "@/components/Hero";
 import Pendidikan from "@/components/Pendidikan";
 import Penerimaan from "@/components/Penerimaan";
+import Pengalaman from "@/components/Pengalaman";
 import NavComp from "@/components/nav-comp";
 import Pendaftaran from "@/components/pendaftaran";
 
@@ -23,6 +24,9 @@ export default function Home() {
       <br />
       <br />
       <Pendidikan />
+      <br />
+      <br />
+      <Pengalaman />
     </div>
   );
 }
