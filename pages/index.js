@@ -1,7 +1,7 @@
 import Agenda from "@/components/Agenda";
 import Fasilitas from "@/components/Fasilitas";
 import Footer from "@/components/Footer";
-import Hero from "@/components/Hero";
+import Hero from "@/pages/Hero1";
 import Pendidikan from "@/components/Pendidikan";
 import Penerimaan from "@/components/Penerimaan";
 import Pengalaman from "@/components/Pengalaman";
@@ -15,7 +15,6 @@ export default function Home() {
   return (
     <div className=" bg-slate-50">
       <NavComp />
-      <br />
       <Hero />
       <br />
       <br />

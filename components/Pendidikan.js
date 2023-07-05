@@ -3,7 +3,7 @@ import pendidikan from "@/Assets/image/pendidikan.jpg";
 import Image from "next/image";
 export default function Pendidikan() {
   return (
-    <div className="mx-[130px]">
+    <div className="mx-[130px] mt-24 " id="pendidikan">
       <div className="text-center  text-3xl font-semibold">PENDIDIKAN</div>
       <div className="flex pt-10">
         <Image

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 import { useState, useEffect } from "react";
@@ -26,16 +27,19 @@ function NavComp() {
         <div className="col-span-2 text-[30px] text-center cursor-pointer ">
           FAZUFI ACADEMY
         </div>
-        {/* <div className="col-span-4 flex justify-start text-[14px] h-24 items-center "> */}
-        <div className=" hover:text-slate-400 text-[14px] cursor-pointer flex justify-center items-center h-full w-full  ">
-          TENTANG ACADEMY
-        </div>
+        <Link href="#berita">
+          <div className=" hover:text-slate-400 text-[14px] cursor-pointer flex justify-center items-center h-full w-full  ">
+            BERITA ACADEMY
+          </div>
+        </Link>
         <div className=" hover:text-slate-400 text-[14px] cursor-pointer flex justify-center items-center h-full w-full  ">
           KEBIJAKAN
         </div>
-        <div className=" hover:text-slate-400 text-[14px] cursor-pointer flex justify-center items-center h-full w-full  ">
-          PENDIDIKAN
-        </div>
+        <Link href="#pendidikan">
+          <div className=" hover:text-slate-400 text-[14px] cursor-pointer flex justify-center items-center h-full w-full  ">
+            PENDIDIKAN
+          </div>
+        </Link>
         <div className=" hover:text-slate-400 text-[14px] cursor-pointer flex justify-center items-center h-full w-full  ">
           MAHASISWA
         </div>
