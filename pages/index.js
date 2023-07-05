@@ -1,4 +1,5 @@
 import Agenda from "@/components/Agenda";
+import Fasilitas from "@/components/Fasilitas";
 import Hero from "@/components/Hero";
 import Pendidikan from "@/components/Pendidikan";
 import Penerimaan from "@/components/Penerimaan";
@@ -35,6 +36,9 @@ export default function Home() {
       <br />
       <br />
       <Jendela />
+      <br />
+      <br />
+      <Fasilitas />
     </div>
   );
 }
