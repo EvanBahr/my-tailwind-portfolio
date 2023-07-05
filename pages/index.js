@@ -1,17 +1,19 @@
 import Agenda from "@/components/Agenda";
 import Fasilitas from "@/components/Fasilitas";
+import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import Pendidikan from "@/components/Pendidikan";
 import Penerimaan from "@/components/Penerimaan";
 import Pengalaman from "@/components/Pengalaman";
 import RealProject from "@/components/RealProject";
+import Info from "@/components/info";
 import Jendela from "@/components/jendela";
 import NavComp from "@/components/nav-comp";
 import Pendaftaran from "@/components/pendaftaran";
 
 export default function Home() {
   return (
-    <div className="pb-96 bg-slate-50">
+    <div className=" bg-slate-50">
       <NavComp />
       <br />
       <Hero />
@@ -39,6 +41,10 @@ export default function Home() {
       <br />
       <br />
       <Fasilitas />
+      <br />
+      <br />
+      <Info />
+      <Footer />
     </div>
   );
 }
