@@ -3,7 +3,7 @@ import real from "@/Assets/image/real.jpg";
 import Image from "next/image";
 export default function RealProject() {
   return (
-    <div className="mx-[130px]">
+    <div className="mx-[130px]" id="real">
       <div className="text-center  text-3xl font-semibold">REAL PROJECT</div>
       <div className="flex pt-10">
         <Image

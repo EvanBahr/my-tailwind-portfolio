@@ -5,7 +5,7 @@ import youtube from "@/Assets/image/youtube.jpg";
 import YoutubeCard from "./youtubeCard";
 export default function Jendela() {
   return (
-    <div className=" bg-slate-200 py-20">
+    <div className=" bg-slate-200 py-20" id="jendela">
       <div className="mx-[130px]">
         <div className="text-center  text-3xl font-semibold">
           JENDELA ACADEMY

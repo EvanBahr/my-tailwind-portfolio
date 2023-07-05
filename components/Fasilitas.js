@@ -11,7 +11,7 @@ import CardFasilitas from "./cardFasilitas";
 
 const Fasilitas = () => {
   return (
-    <section className="relative">
+    <section className="relative " id="fasilitas">
       {/* Gambar besar yang akan muncul di section ini */}
       <Image
         src={pendidikan}

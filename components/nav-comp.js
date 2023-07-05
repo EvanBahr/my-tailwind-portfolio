@@ -32,26 +32,37 @@ function NavComp() {
             BERITA ACADEMY
           </div>
         </Link>
-        <div className=" hover:text-slate-400 text-[14px] cursor-pointer flex justify-center items-center h-full w-full  ">
-          KEBIJAKAN
-        </div>
+        <Link href="#agenda">
+          <div className=" hover:text-slate-400 text-[14px] cursor-pointer flex justify-center items-center h-full w-full  ">
+            AGENDA
+          </div>
+        </Link>
         <Link href="#pendidikan">
           <div className=" hover:text-slate-400 text-[14px] cursor-pointer flex justify-center items-center h-full w-full  ">
             PENDIDIKAN
           </div>
         </Link>
-        <div className=" hover:text-slate-400 text-[14px] cursor-pointer flex justify-center items-center h-full w-full  ">
-          MAHASISWA
-        </div>
-        <div className=" hover:text-slate-400 text-[14px] cursor-pointer flex justify-center items-center h-full w-full  ">
-          PENELITIAN
-        </div>
-        <div className=" hover:text-slate-400 text-[14px] cursor-pointer flex justify-center items-center h-full w-full  ">
-          PENGABDIAN
-        </div>
-        <div className=" hover:text-slate-400 text-[14px] cursor-pointer flex justify-center items-center h-full w-full ">
-          KERJASAMA
-        </div>
+        <Link href="#pengalaman">
+          <div className=" hover:text-slate-400 text-[14px] cursor-pointer flex justify-center items-center h-full w-full  ">
+            PENGALAMAN
+          </div>
+        </Link>
+        <Link href="#real">
+          <div className=" hover:text-slate-400 text-[14px] cursor-pointer flex justify-center items-center h-full w-full  ">
+            REAL PROJECT
+          </div>
+        </Link>
+
+        <Link href="#fasilitas">
+          <div className=" hover:text-slate-400 text-[14px] cursor-pointer flex justify-center items-center h-full w-full  ">
+            FASILITAS
+          </div>
+        </Link>
+        <Link href="#tentang">
+          <div className=" hover:text-slate-400 text-[14px] cursor-pointer flex justify-center items-center h-full w-full ">
+            TENTANG KAMI
+          </div>
+        </Link>
       </div>
     </div>
     // </div>

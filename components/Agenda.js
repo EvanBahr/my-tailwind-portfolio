@@ -4,7 +4,7 @@ import pp from "@/Assets/image/pp.jpg";
 import CardBerita from "./CardBerita";
 export default function Agenda() {
   return (
-    <div className=" bg-slate-200 py-20">
+    <div className=" bg-slate-200 py-20" id="agenda">
       <div className="mx-[130px]">
         <div className=" flex items-center space-x-[1px] bg-slate-400 ">
           <div className="h-full w-[150px] p-3 bg-blue-950  text-teal-200 text-center">

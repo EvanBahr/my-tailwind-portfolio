@@ -3,7 +3,7 @@ import { BsFacebook, BsInstagram, BsTwitter, BsYoutube } from "react-icons/bs";
 import { MdRadio } from "react-icons/md";
 export default function Info() {
   return (
-    <div className="bg-blue-950 h-[400px] pt-6 ">
+    <div className="bg-blue-950 h-[400px] pt-6 " id="tentang">
       <div className="mx-[130px] ">
         <div className="grid grid-cols-6 text-white text-left ">
           <div className="col-span-2">

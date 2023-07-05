@@ -3,7 +3,7 @@ import experience from "@/Assets/image/Experience.jpg";
 import Image from "next/image";
 export default function Pengalaman() {
   return (
-    <div className=" bg-slate-200 py-20">
+    <div className=" bg-slate-200 py-20" id="pengalaman">
       <div className="mx-[130px]">
         <div className="text-center  text-3xl font-semibold">PENGALAMAN</div>
         <div className="flex pt-10">
