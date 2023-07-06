@@ -18,7 +18,7 @@ import "swiper/css/navigation";
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
 
 export default function Hero() {
-  const Fotos = [org, gedung, lingkungan, kelas, kebel, workshop, events];
+  const Fotos = [org, lingkungan, kelas, kebel, workshop, gedung, events];
 
   return (
     <>
