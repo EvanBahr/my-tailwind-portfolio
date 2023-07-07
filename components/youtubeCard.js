@@ -10,7 +10,7 @@ export default function YoutubeCard(props) {
           alt="thumbnail youtube"
           className="w-[150px] h-[100px] hover:border-2 border-black transform transition-transform duration-300 hover:scale-110  "
         />
-        <div className="ml-3">{props.capt}</div>
+        <div className="ml-3 text-sm xl:text-base">{props.capt}</div>
       </div>
     </div>
   );

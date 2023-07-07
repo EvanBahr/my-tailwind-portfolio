@@ -3,15 +3,18 @@ import real from "@/Assets/image/real.jpg";
 import Image from "next/image";
 export default function RealProject() {
   return (
-    <div className="mx-[130px]" id="real">
-      <div className="text-center  text-3xl font-semibold">REAL PROJECT</div>
-      <div className="flex pt-10">
+    // <div className="mx-[130px]" id="real">
+    <div className="mx-4 xl:mx-[130px] mt-24 " id="pendidikan">
+      <div className=" text-center  text-xl xl:text-3xl font-semibold">
+        REAL PROJECT
+      </div>
+      <div className="xl:flex pt-10">
         <Image
           src={real}
-          className="w-[800px] h-[550px] shadow-md "
-          alt="foto sub pendidikan"
+          className="w-full h-[250px] xl:h-[550px] shadow-md object-cover "
+          alt="foto sub real project"
         />
-        <div className="pl-10 pt-6 text-[16px] text-slate-600">
+        <div className="xl:pl-10 pt-6 text-[16px] text-slate-600">
           sebuah academy coding yang inovatif, menawarkan pengalaman belajar
           yang unik dengan mengerjakan real project. Selama mengikuti program
           bootcamp, peserta akan diajak untuk terlibat dalam proyek nyata yang

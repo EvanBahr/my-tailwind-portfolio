@@ -5,8 +5,8 @@ import CardBerita from "./CardBerita";
 export default function Agenda() {
   return (
     <div className=" bg-slate-200 py-20" id="agenda">
-      <div className="mx-[130px]">
-        <div className=" flex items-center space-x-[1px] bg-slate-400 ">
+      <div className="mx-4 xl:mx-[130px]">
+        <div className="flex items-center space-x-[1px] bg-slate-400 text-sm xl:text-base  ">
           <div className="h-full w-[150px] p-3 bg-blue-950  text-teal-200 text-center">
             AGENDA
           </div>
@@ -17,9 +17,8 @@ export default function Agenda() {
             BERITA ACADEMY
           </div>
         </div>
-
         <div>
-          <div className="grid grid-cols-3 pt-[100px] space-x-3 ">
+          <div className="xl:grid xl:grid-cols-3 pt-[100px] space-y-2 xl:space-y-0 xl:space-x-3 text-sm md:text-base">
             <CardBerita
               pp={pp}
               capt={
@@ -42,7 +41,7 @@ export default function Agenda() {
               tanggal={"15 maret 2023"}
             />
           </div>{" "}
-          <div className="grid grid-cols-3 pt-[20px] space-x-3 ">
+          <div className="xl:grid xl:grid-cols-3 xl:pt-[100px] space-y-2 xl:space-y-0 mt-2 xl:space-x-3 text-sm md:text-base ">
             <CardBerita
               pp={pp}
               capt={

@@ -32,7 +32,7 @@ export default function Hero1() {
           <Image
             src={item}
             alt={`Slide ${index + 1}`}
-            className="w-full h-[500px] object-cover mt-24"
+            className="w-full h-[250px] xl:h-[500px] md:h-[350px]  object-cover mt-24"
           />
         </SwiperSlide>
       ))}

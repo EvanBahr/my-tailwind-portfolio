@@ -4,9 +4,11 @@ import Image from "next/image";
 export default function Pengalaman() {
   return (
     <div className=" bg-slate-200 py-20" id="pengalaman">
-      <div className="mx-[130px]">
-        <div className="text-center  text-3xl font-semibold">PENGALAMAN</div>
-        <div className="flex pt-10">
+      <div className="mx-4 xl:mx-[130px]">
+        <div className="text-center text-xl  xl:text-3xl font-semibold">
+          PENGALAMAN
+        </div>
+        <div className="xl:flex pt-10">
           <div className="pr-10 pt-6 text-[16px] text-slate-600">
             Bergabung dengan Fazufi Academy merupakan kesempatan langka untuk
             meraih pengalaman belajar yang efektif dan mendalam dalam menguasai
@@ -21,7 +23,7 @@ export default function Pengalaman() {
           </div>{" "}
           <Image
             src={experience}
-            className="w-[800px] h-[550px] shadow-md "
+            className="w-full h-[250px] object-cover xl:h-[550px] shadow-md "
             alt="foto sub pendidikan"
           />
         </div>

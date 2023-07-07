@@ -14,7 +14,7 @@ import Pendaftaran from "@/components/pendaftaran";
 export default function Home() {
   return (
     <div className=" bg-slate-50">
-      <NavComp />
+      {/* <NavComp /> */}
       <Hero />
       <br />
       <br />

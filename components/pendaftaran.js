@@ -5,19 +5,23 @@ import CardPhoto from "./CardPhoto";
 import Penerimaan from "./Penerimaan";
 export default function Pendaftaran() {
   return (
-    <div className="mx-[130px]">
-      <div className="text-center  text-3xl font-semibold">BERITA ACADEMY</div>
-      <div className="grid grid-cols-2 pt-10 ">
-        <Image
-          src={org}
-          alt="gambar besar"
-          className="h-[400px] w-[550px] pl-[20px] object-cover "
-        />
-        <div>
-          <div className="text-sm text-blue-400 font-semibold">
+    <div className="mx-4 xl:mx-[130px]">
+      <div className="text-center  text-xl  xl:text-3xl font-semibold">
+        BERITA ACADEMY
+      </div>
+      <div className="xl:grid xl:grid-cols-2 pt-10 ">
+        <div className="flex justify-center">
+          <Image
+            src={org}
+            alt="gambar besar"
+            className="h-[200px] xl:h-[400px] w-full xl:pr-[20px] xl:pl-[20px] object-cover "
+          />
+        </div>
+        <div className="">
+          <div className="xl:text-sm text-[12px] text-blue-400 font-semibold">
             Sunday 7 July 2023
           </div>
-          <div>
+          <div className="xl:text-base text-sm">
             PERDANA, FAZUFI ACADEMY BAHASA HELAT FUN ENGLISH CAMP UNTUK PELAJAR,
             BAKAL DIGELAR TAHUNAN
           </div>
@@ -33,7 +37,7 @@ export default function Pendaftaran() {
           </div>
         </div>
       </div>
-      <div className="grid grid-cols-3 pt-6 justify-between space-x-1 ">
+      <div className=" xl:grid xl:grid-cols-3 pt-6 justify-between space-x-1 ">
         <CardPhoto
           foto={org}
           text={
