@@ -8,7 +8,7 @@ export default function CardFasilitas(props) {
         <Image
           src={props.gmb}
           alt="gedung"
-          className="h-[200px] w-[300px] z-30 opacity-90 blur-[30] hover:blur-none rounded-md transform transition-transform duration-300 hover:scale-90 hover:border-4 hover:border-white "
+          className="xl:h-[600px] h-[400px] w-full z-30 opacity-90 blur-[30] object-cover hover:blur-none rounded-md transform transition-transform duration-300 hover:scale-90 hover:border-4 hover:border-white "
         />
       </div>
       <div className="text-center text-white font-semibold uppercase text-xl">
